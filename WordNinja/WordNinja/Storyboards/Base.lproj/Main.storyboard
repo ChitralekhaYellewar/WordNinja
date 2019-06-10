@@ -24,26 +24,6 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eMv-6x-ShO">
                                         <rect key="frame" x="0.0" y="591" width="375" height="56"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2PA-IT-dFv">
-                                                <rect key="frame" x="319" y="0.0" width="40" height="56"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" red="0.0" green="0.58823529409999997" blue="0.83921568629999999" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="nextTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nhp-CJ-XER"/>
-                                                </connections>
-                                            </button>
-                                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hOE-PR-g39">
-                                                <rect key="frame" x="16" y="0.0" width="40" height="56"/>
-                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="12"/>
-                                                <state key="normal" title="Button">
-                                                    <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="prevTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="elg-LY-RB7"/>
-                                                </connections>
-                                            </button>
                                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jxd-PT-6vR">
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                                 <constraints>
@@ -60,17 +40,10 @@
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstItem="2PA-IT-dFv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hOE-PR-g39" secondAttribute="trailing" constant="8" symbolic="YES" id="APZ-IS-8bS"/>
-                                            <constraint firstItem="hOE-PR-g39" firstAttribute="top" secondItem="eMv-6x-ShO" secondAttribute="top" id="FQe-xd-spQ"/>
-                                            <constraint firstItem="2PA-IT-dFv" firstAttribute="top" secondItem="eMv-6x-ShO" secondAttribute="top" id="IKz-e3-RGY"/>
                                             <constraint firstAttribute="height" constant="56" id="P3F-1i-ySS"/>
                                             <constraint firstAttribute="bottom" secondItem="Jxd-PT-6vR" secondAttribute="bottom" id="VfJ-9h-XdV"/>
                                             <constraint firstItem="Jxd-PT-6vR" firstAttribute="centerX" secondItem="eMv-6x-ShO" secondAttribute="centerX" id="dLe-fR-7Ls"/>
-                                            <constraint firstAttribute="trailing" secondItem="2PA-IT-dFv" secondAttribute="trailing" constant="16" id="h3a-te-LQI"/>
                                             <constraint firstItem="Jxd-PT-6vR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="eMv-6x-ShO" secondAttribute="leading" id="kuf-gL-76g"/>
-                                            <constraint firstAttribute="bottom" secondItem="hOE-PR-g39" secondAttribute="bottom" id="soY-1C-hYv"/>
-                                            <constraint firstAttribute="bottom" secondItem="2PA-IT-dFv" secondAttribute="bottom" id="tgd-CQ-99j"/>
-                                            <constraint firstItem="hOE-PR-g39" firstAttribute="leading" secondItem="eMv-6x-ShO" secondAttribute="leading" constant="16" id="up1-oG-3FS"/>
                                             <constraint firstAttribute="trailing" secondItem="Jxd-PT-6vR" secondAttribute="trailing" id="vSz-Ph-cuL"/>
                                         </constraints>
                                     </view>
@@ -114,9 +87,7 @@
                         <connections>
                             <outlet property="getStartedButton" destination="Jxd-PT-6vR" id="Sbh-Fn-BO9"/>
                             <outlet property="getStartedButtonHeight" destination="Ddm-cz-Sze" id="eSh-1g-YIQ"/>
-                            <outlet property="nextPageButton" destination="2PA-IT-dFv" id="3TY-GO-FMD"/>
                             <outlet property="onBoardingLabel" destination="PHi-37-5qc" id="I7L-Ho-4tn"/>
-                            <outlet property="prevPageButton" destination="hOE-PR-g39" id="8PB-o1-UQz"/>
                         </connections>
                     </view>
                     <connections>

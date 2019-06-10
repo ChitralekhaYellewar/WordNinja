@@ -26,8 +26,6 @@ extension OnBoardingPageViewController {
             self.view.addSubview(pageControl)
             self.view.layoutIfNeeded()
         }
-        
-        updateUI()
     }
     
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {

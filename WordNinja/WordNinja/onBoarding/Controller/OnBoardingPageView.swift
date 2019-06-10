@@ -30,9 +30,7 @@ extension OnBoardingPageViewController {
                 self.view.layoutIfNeeded()
             }
         }
-        
-        updateUI()
-        
+                
     }
     
     func goPrevPage() {
@@ -47,22 +45,5 @@ extension OnBoardingPageViewController {
             self.pageControl.currentPage = previousPageIndex
         }
         
-        updateUI()
-    }
-    
-    func updateUI() {
-        
-        let pageContentViewController = self.viewControllers![0] as! OnBoardingPageContentViewController
-        self.pageControl.currentPage =  pageContentViewController.pageIndex
-        let index = self.pageControl.currentPage
-        
-        switch index {
-        case 0:
-            pageContentViewController.onBoardingView.prevPageButton.isHidden = true
-        case 1...2:
-            pageContentViewController.onBoardingView.prevPageButton.isHidden = false
-        default:
-            print("default of update ui onboarding")
-        }
     }
 }
