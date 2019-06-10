@@ -8,4 +8,4 @@ The player will have to choose the correct word to win.
 
 If player chooses all words correctly in one attempt, the player wins. One or more wrong choosen word makes player to lose.
 
-<a href="https://imgflip.com/gif/3331xe"><img src="https://i.imgflip.com/3331xe.gif" title="made at imgflip.com"/></a>
+<a href="https://imgflip.com/gif/33321j"><img src="https://i.imgflip.com/33321j.gif" title="made at imgflip.com"/></a>
